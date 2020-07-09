@@ -2759,6 +2759,22 @@ button:active,
   }
 }
 
+/* Social Icons */
+
+h4.social-icon-header {
+  text-align: center;
+}
+
+/* Portfolio */
+
+header.portfolio-AFG p {
+  padding: 7px;
+}
+
+header.portfolio-AFG h2 {
+  text-align: center;
+}
+
 /* Tech Stack */
 
 .tech-stack-gallery {
@@ -2777,4 +2793,8 @@ button:active,
 .tech-stack-header {
   text-align: center;
   margin-top: 100px;
+}
+
+button.resume-button {
+  margin-bottom: 35px;
 }
