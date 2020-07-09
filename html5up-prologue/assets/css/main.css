@@ -2758,3 +2758,23 @@ button:active,
     margin-top: 0;
   }
 }
+
+/* Tech Stack */
+
+.tech-stack-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.gallery-img {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 25px;
+}
+
+.tech-stack-header {
+  text-align: center;
+  margin-top: 100px;
+}
