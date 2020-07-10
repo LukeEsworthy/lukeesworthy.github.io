@@ -2767,23 +2767,12 @@ h4.social-icon-header {
 
 /* About Me */
 
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
-
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-  margin: 0 -5px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.experience-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 /* Style the counter cards */
@@ -2792,6 +2781,9 @@ h4.social-icon-header {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  max-width: 38%;
+  max-height: fit-content;
+  margin-top: 25px;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -2801,6 +2793,16 @@ h4.social-icon-header {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+.card p,
+.card li {
+  font-size: large;
+  text-align: left;
+}
+
+p.card-header-date {
+  text-align: center;
 }
 
 /* Portfolio */
